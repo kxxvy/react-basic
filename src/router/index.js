@@ -4,6 +4,11 @@ import Mine from "@/pages/mine";
 
 const routes = [
   {
+    path: "/",
+    exact: true,
+    component: Home,
+  },
+  {
     path: "/home",
     component: Home,
   },
